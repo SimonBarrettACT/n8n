@@ -1,11 +1,5 @@
-version: 1.0
-publish: app
-services:
-  app:
-    command: npm run start
-    build:
-      type: dockerfile
-      config: ./.runme/Dockerfile
-    ports:
-      - container: 5678
-        public: 80
+FROM node:latest
+WORKDIR /app
+COPY . .
+RUN npm run build
+ENTRYPOINT npm run start
