@@ -1,3 +1,5 @@
+[![Runme](https://runme.io/static/button.svg)](https://runme.io/run?app_id=3e518196-4260-4abf-b5ff-3d772b7affc0)
+
 # n8n - Workflow Automation Tool
 
 ![n8n.io - Workflow Automation](https://raw.githubusercontent.com/n8n-io/n8n/master/docs/images/n8n-logo.png)
